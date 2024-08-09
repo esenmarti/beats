@@ -14,6 +14,7 @@ fi
 CPU_ARCH=$(uname -m)
 PLATFORM_TYPE=$(uname)
 
+
 if [[ "${CPU_ARCH}" == "x86_64" ]]; then
   case "${PLATFORM_TYPE}" in
     Linux|Darwin)
